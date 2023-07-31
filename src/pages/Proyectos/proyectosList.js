@@ -8,7 +8,7 @@ const proyectosList = [
     {
         "title": "PortFolio",
         "img": Porfolio,
-        "descripcion": "PortFolio realizado con Reactjs, React-Router,Hooks y EmailJs para el formulario de Contacto",
+        "descripcion": "PortFolio realizado con Reactjs, React-Router, Hooks, SweetAlert y EmailJs para el formulario de Contacto",
         "repositorio": "https://github.com/lizandronarvaez/React-PortFolio",
     }
     ,
@@ -22,13 +22,13 @@ const proyectosList = [
     {
         "title": "GifApp",
         "img": GifApp,
-        "descripcion": "App Realizado con Reactjs",
+        "descripcion": "App de busqueda de Gifs realizada con Reactjs,",
         "repositorio": "https://github.com/lizandronarvaez/gifs-app-reactjs",
         "enlaceProyecto": "https://gifs-app-reactjs.vercel.app"
     }, {
         "title": "DevJobs",
         "img": PortalEmpleo,
-        "descripcion": "Portal de empleo realizado con NodeJs, Handlebars, Autenticaciones",
+        "descripcion": "Portal de empleo realizado con NodeJs,ExpressJs, Handlebars, Autenticaciones, Notificaciones de Registro con Nodemailer, ODM Mongoose.",
         "repositorio": "https://github.com/lizandronarvaez/DevJobs",
         "enlaceProyecto": "https://empleo-it-devjobs.onrender.com"
     }, {
