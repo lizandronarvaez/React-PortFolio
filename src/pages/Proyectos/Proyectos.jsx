@@ -19,12 +19,14 @@ const Proyectos = () => {
                                 <NavLink
                                     className="btn btn-repositorio"
                                     to={proyecto.repositorio}
+                                    target="_blank"
                                 >
                                     Repositorio
                                 </NavLink>
                                 <NavLink
                                     className="btn btn-enlace"
                                     to={proyecto.enlaceProyecto}
+                                    target="_blank"
                                 >
                                     Ver Proyecto
                                 </NavLink>
