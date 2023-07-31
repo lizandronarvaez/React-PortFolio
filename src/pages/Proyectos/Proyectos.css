@@ -32,6 +32,10 @@
     background: linear-gradient(to bottom, #000 0%, #fff 50%);
 }
 
+.box:first-of-type a:last-child {
+    display: none;
+}
+
 .box h2 {
     color: #fff;
 }
@@ -70,13 +74,15 @@
     color: white;
     font-weight: bold;
 }
-@media (min-width: 998px){
+
+@media (min-width: 998px) {
     .btn {
         padding: 1rem 2rem;
         border-radius: 5px;
         margin: 0 1rem;
     }
 }
+
 .btn-repositorio {
     background-color: rgb(206, 54, 54);
 }

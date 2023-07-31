@@ -9,8 +9,7 @@ const proyectosList = [
         "title": "PortFolio",
         "img": Porfolio,
         "descripcion": "PortFolio realizado con Reactjs, React-Router,Hooks y EmailJs para el formulario de Contacto",
-        "repositorio": "",
-        "enlaceProyecto": ""
+        "repositorio": "https://github.com/lizandronarvaez/React-PortFolio",
     }
     ,
     {
