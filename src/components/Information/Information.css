@@ -1,0 +1,125 @@
+
+.informacion--titulo {
+    animation: teclado 3s steps(40), blink 1s normal both infinite;
+    border-right: 4px solid;
+    color: #f1eded;
+    font-size: 3rem;
+    margin-top: 5rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.informacion__bloque p {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 3rem;
+    padding:5rem 2rem ;
+    color: var(--letraBlanca);
+}
+.informacion__bloque p:last-of-type{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.informacion__bloque p:last-of-type a{
+    padding: 1rem 1.5rem;
+    background-color:#ff0000;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 800;
+}
+.informacion-negrita{
+    margin-right: 1.5rem;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+@media (min-width: 480px) {
+    .informacion {
+        display: contents;
+        justify-content: center;
+    }
+
+    .informacion__bloque {
+        display: contents;
+    }
+
+    .informacion__bloque:nth-last-of-type(2) .skills {
+        padding-top: 40rem;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .informacion--titulo {
+        color: #f1eded;
+        white-space: nowrap;
+        border-right: 4px solid;
+        overflow: hidden;
+        animation: teclado 3s steps(40), blink 1s normal both infinite;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .informacion__bloque .skills {
+        max-width: 50rem;
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .informacion__bloque {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 80rem;
+        text-align: center;
+    }
+
+    .informacion__bloque p:first-of-type {
+        font-size: 2.5rem;
+        line-height: 5rem;
+        padding-top: 10rem;
+    }
+    .informacion__bloque p:last-of-type{
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .informacion--titulo {
+        animation: teclado 3s steps(40), blink 1s normal both infinite;
+        border-right: 4px solid;
+        font-size: 6rem;
+        grid-column: 1 / 3;
+        margin: 8rem auto 0 auto;
+        max-width: 78rem;
+        overflow: hidden;
+        padding: 1rem;
+        white-space: nowrap;
+    }
+}
+
+@keyframes teclado {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}

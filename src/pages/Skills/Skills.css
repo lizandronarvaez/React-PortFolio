@@ -1,0 +1,137 @@
+.informacion {
+    font-size: 1.6rem;
+}
+
+.container-habilidades {
+    width: min(95%, 100rem);
+    margin: 0 auto;
+    padding-top: 5rem;
+}
+
+/* Habilidades */
+.habilidades {
+    display: grid;
+}
+
+.habilidades-frontend,
+.habilidades-backend,
+.base-datos,
+.herramientas-desarrollo,
+.habilidades-testing {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.habilidades-frontend h3,
+.habilidades-backend h3,
+.base-datos h3,
+.herramientas-desarrollo h3,
+.habilidades-testing h3 {
+    padding: 2rem;
+    background-color: blue;
+    text-align: center;
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 7rem 1rem 7rem 1rem;
+}
+
+@media (min-width: 768px) {
+    .habilidades {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+
+
+    .habilidades-testing .habilidades {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .base-datos .habilidades {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .herramientas-desarrollo .habilidades {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .habilidades {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+
+    .habilidades-backend .habilidades {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .base-datos .habilidades {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .habilidades-testing .habilidades {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .habilidades-frontend .habilidades {
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+    .habilidades-frontend h3,
+    .habilidades-backend h3,
+    .base-datos h3,
+    .herramientas-desarrollo h3,
+    .habilidades-testing h3 {
+        font-size: 2rem;
+    }
+}
+
+.habilidades .caja {
+    text-align: center;
+    padding: 5rem 0 5rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+
+.habilidades .caja-texto {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+/* Footer SKILLS */
+
+.informacion__fullstack {
+    width: min(90%, 100rem);
+    margin: 0 auto;
+    padding-top: 10rem;
+    text-align: center;
+}
+
+.informacion__fullstack .skills {
+    width: 30rem;
+}
+
+.informacion__fullstack p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+}
+
+@media (min-width: 992px) {
+    .informacion__fullstack .skills {
+        width: 50rem;
+    }
+
+    .informacion__fullstack p {
+        font-size: 2rem;
+        line-height: 3rem;
+        padding: 1rem 2rem;
+    }
+
+}

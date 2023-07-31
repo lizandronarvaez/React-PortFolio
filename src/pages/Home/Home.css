@@ -1,0 +1,39 @@
+/* main */
+.home {
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008C 0% 100%), url("https://www.cabotsolutions.com/public/_bannerTemplate/17595/certified-developers.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 90rem;
+}
+
+@media (min-width: 992px) {
+    .home {
+        background-image: linear-gradient(180deg, #0000008c 0%, #0000008C 0% 100%),;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
+
+.contenedor {
+    margin: 0 auto;
+}
+
+.container__informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+
+.informacion,
+h3,
+p {
+    font-size: 1.6rem;
+}

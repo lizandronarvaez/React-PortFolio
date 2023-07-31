@@ -1,0 +1,22 @@
+.navegacion {
+    padding: 1rem;
+    
+}
+
+@media (min-width: 768px) {
+
+    .navegacion {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .navegacion {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+}
