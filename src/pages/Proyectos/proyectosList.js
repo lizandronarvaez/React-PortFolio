@@ -18,26 +18,26 @@ const proyectosList = [
         "img": WeatherApp,
         "descripcion": "App Realizada con Reactjs, muestra la temperatura de ciudades españolas",
         "repositorio": "https://github.com/lizandronarvaez/React-app-weather",
-        "enlaceProyecto": ""
+        "enlaceProyecto": "https://react-app-weather-psi.vercel.app"
     },
     {
         "title": "GifApp",
         "img": GifApp,
         "descripcion": "App Realizado con Reactjs",
         "repositorio": "https://github.com/lizandronarvaez/gifs-app-reactjs",
-        "enlaceProyecto": ""
+        "enlaceProyecto": "https://gifs-app-reactjs.vercel.app"
     }, {
         "title": "DevJobs",
         "img": PortalEmpleo,
         "descripcion": "Portal de empleo realizado con NodeJs, Handlebars, Autenticaciones",
         "repositorio": "https://github.com/lizandronarvaez/DevJobs",
-        "enlaceProyecto": ""
+        "enlaceProyecto": "https://empleo-it-devjobs.onrender.com"
     }, {
         "title": "Rick and Morty",
         "img": RickAndMorty,
-        "descripcion":"SingleApp realizada con ReactJs, contiene un formulario para buscar los personajes.",
+        "descripcion": "SingleApp realizada con ReactJs, contiene un formulario para buscar los personajes.",
         "repositorio": "https://github.com/lizandronarvaez/Rick-Morty-API",
-        "enlaceProyecto": ""
+        "enlaceProyecto": "https://rick-morty-api-phi.vercel.app"
     }
 ]
 
