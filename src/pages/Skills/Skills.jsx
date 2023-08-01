@@ -8,7 +8,7 @@ import Testing from "../../components/Skills/Testing"
 const Skills = () => {
     return (
         <>
-            <section className="informacion">
+            <div className="informacion">
                 <section className="container-habilidades" id="container-habilidades">
                     <SkillFrontend />
                     <SkillsBackend />
@@ -17,7 +17,7 @@ const Skills = () => {
                     <HerramientasDesarrollo />
                 </section>
                 <FooterSkills />
-            </section>
+            </div>
         </>
     )
 }
