@@ -9,28 +9,26 @@ const Proyectos = () => {
             <div className="grid">
                 {
                     proyectosList.map((proyecto, i) => (
-                        <div key={i} className="box">
+                        <div key={i} className="box" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                             <h2>{proyecto.title}</h2>
                             <div className="proyecto">
                                 <img src={proyecto.img} alt="" />
                                 <p>{proyecto.descripcion}</p>
                             </div>
-                            <div className="enlaces">
-                                <NavLink
-                                    className="btn btn-repositorio"
-                                    to={proyecto.repositorio}
-                                    target="_blank"
-                                >
-                                    Repositorio
-                                </NavLink>
-                                <NavLink
-                                    className="btn btn-enlace"
-                                    to={proyecto.enlaceProyecto}
-                                    target="_blank"
-                                >
-                                    Ver Proyecto
-                                </NavLink>
-                            </div>
+                            <NavLink
+                                className="btn btn-repositorio"
+                                to={proyecto.repositorio}
+                                target="_blank"
+                            >
+                                Repositorio
+                            </NavLink>
+                            <NavLink
+                                className="btn btn-enlace"
+                                to={proyecto.enlaceProyecto}
+                                target="_blank"
+                            >
+                                Ver Proyecto
+                            </NavLink>
                         </div>
                     ))
                 }
