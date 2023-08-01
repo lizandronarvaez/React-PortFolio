@@ -1,0 +1,27 @@
+/* footer */
+.footer {
+    padding: 2rem 0;
+    background-color: #000;
+}
+
+.footer .footer__texto {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    padding: 0 5rem;
+    text-align: center;
+}
+.iconos a{
+    margin: 0 2rem;
+}
