@@ -15,8 +15,6 @@
     text-transform: uppercase;
 }
 
-
-
 @media (min-width: 768px) {
 
     .navegacion__enlaces {
@@ -65,12 +63,12 @@
         width: 20rem;
         text-align: center;
     }
-
 }
 
 @media (min-width: 768px) {
     .mostrar__enlaces {
         width: 100%;
+        display:flex ;
     }
 
 }
