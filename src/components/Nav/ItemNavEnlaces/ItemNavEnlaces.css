@@ -9,10 +9,20 @@
     justify-content: center;
     color: #000;
     font-weight: 400;
-    padding: 1rem;
-    letter-spacing: 1px;
-    line-height: 3rem;
+    padding: 1.5rem 0;
+    letter-spacing: .96px;
     text-transform: uppercase;
+    font-family:'Fjalla One', sans-serif;
+}
+
+
+@media (min-width: 320px) {
+    .mostrar__enlaces {
+        margin: 0 auto;
+        display: block;
+        width: 20rem;
+        text-align: center;
+    }
 }
 
 @media (min-width: 768px) {
@@ -26,10 +36,16 @@
     .navegacion__enlace {
         font-size: 1.8rem;
     }
-
-    .hamburger {
-        display: none;
+    .mostrar__enlaces {
+        width: 100%;
+        display:flex ;
     }
+
+    .navegacion__enlace:hover {
+        border-bottom: 2px solid #ff0000;
+        color: #ff0000;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -48,35 +64,10 @@
         align-items: center;
     }
 
-    .navegacion__enlace:hover {
-        border: 1px solid #000;
-        border-radius: 5px;
-    }
-
-}
-
-
-@media (min-width: 320px) {
-    .mostrar__enlaces {
-        margin: 0 auto;
-        display: block;
-        width: 20rem;
-        text-align: center;
-    }
-}
-
-@media (min-width: 768px) {
-    .mostrar__enlaces {
-        width: 100%;
-        display:flex ;
-    }
-
-}
-
-@media (min-width: 992px) {
     .mostrar__enlaces {
         width: 100%;
     }
 
 }
+
 
