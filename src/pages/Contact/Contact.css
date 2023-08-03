@@ -4,9 +4,11 @@
     padding: 5rem 2rem;
     text-align: center;
 }
-.form h2{
+
+.form h2 {
     font-size: 2.2rem;
 }
+
 .formulario_box {
     margin: 5rem 0;
 }
@@ -16,11 +18,11 @@
 }
 
 .formulario_box input[type="text"],
-.formulario_box input[type="email"] {
+.formulario_box input[type="email"],
+.formulario_box textarea {
     padding: 1rem 1.5rem;
     width: 30rem;
-    border-radius: 5px;
-    border: .5px solid black;
+    color: #7E8285;
 }
 
 .formulario_box textarea {
@@ -30,16 +32,20 @@
 }
 
 .formulario_box textarea,
+.formulario_box input[type="text"],
+.formulario_box input[type="email"],
 .formulario_box input[type="text"]:focus,
 .formulario_box input[type="email"]:focus {
     outline: none;
+    border: none;
+    background-color: #EFEFEF;
 }
 
 .formulario button[type="submit"] {
     padding: 1.5rem 2rem;
     border-radius: 5px;
     border: none;
-    background-color: rgb(43, 43, 237);
+    background-color:#222D35;
     color: #fff;
     font-weight: 600;
     cursor: pointer;
@@ -47,46 +53,49 @@
 
 @media (min-width: 998px) {
     .form {
-        padding: 2rem 0 3rem 0;
-    }
-    .form h2{
-        font-size: 3rem;
-    }
-    .formulario_box input[type="text"],
-    .formulario_box input[type="email"] {
-        padding: 1rem 1.5rem;
-        width: 40rem;
-        border-radius: 5px;
-        border: .5px solid black;
-    }
-    .formulario_box textarea{
-        width: 40rem;
+        padding: 5rem 0 3rem 0;
     }
 
+    .form h2 {
+        font-size: 3rem;
+    }
+
+    .formulario_box input[type="text"],
+    .formulario_box input[type="email"],
+    .formulario_box textarea {
+        padding: 1rem 1.5rem;
+        width: 100%;
+    }
 }
 
 /* SWEET ALERT */
 
-.swal2-title{
+.swal2-title {
     font-size: 2rem;
 }
-#swal2-html-container{
+
+#swal2-html-container {
     font-size: 1.6rem;
 }
-.swal2-confirm.swal2-styled{
+
+.swal2-confirm.swal2-styled {
     font-size: 1.6rem;
 }
-@media (min-width: 768px){
-    .swal2-show{
+
+@media (min-width: 768px) {
+    .swal2-show {
         width: 60rem;
     }
-    .swal2-title{
+
+    .swal2-title {
         font-size: 3rem;
     }
-    #swal2-html-container{
+
+    #swal2-html-container {
         font-size: 2.4rem;
     }
-    .swal2-confirm.swal2-styled{
+
+    .swal2-confirm.swal2-styled {
         font-size: 2rem;
     }
 }
