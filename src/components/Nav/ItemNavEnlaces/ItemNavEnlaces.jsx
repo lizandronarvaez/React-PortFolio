@@ -9,9 +9,7 @@ import { NavLink } from "react-router-dom";
 const ItemNavEnlaces = ({ isActive }) => {
 
     return (
-        // TODO : SOLUCIONAR AGREGAR CLASE MOSTRAR ENLACE CUANDO LA VISTA SEA MAS PEQUEÑA QUE 768 PX
-        // {`navegacion__enlaces ${window.innerWidth < 768 ? "mostrar__enlaces" : ""}`}
-        <div className={`navegacion__enlaces${isActive ? " mostrar__enlaces" : ""}`}>
+        <div className={`navegacion__enlaces ${isActive ? " mostrar__enlaces" : ""}`}>
 
             {/* INICIO */}
             <NavLink
