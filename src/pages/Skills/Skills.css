@@ -109,7 +109,7 @@
 .informacion__fullstack {
     width: min(90%, 100rem);
     margin: 0 auto;
-    padding-top: 10rem;
+    padding: 10rem 0 12rem 0;
     text-align: center;
 }
 
