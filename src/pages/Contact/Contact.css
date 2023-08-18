@@ -1,6 +1,6 @@
 .form {
     width: min(90%, 50rem);
-    margin: 0 auto;
+    margin: 0 auto 15rem auto;
     padding: 5rem 2rem;
     text-align: center;
 }
