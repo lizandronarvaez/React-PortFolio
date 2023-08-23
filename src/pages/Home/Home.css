@@ -1,11 +1,11 @@
 /* main */
 .home {
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008C 0% 100%), url("https://www.cabotsolutions.com/public/_bannerTemplate/17595/certified-developers.webp");
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008C 0% 100%), url("https://unade.edu.mx/wp-content/uploads/2020/10/desarrollo-de-paginas-web-programacion.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     margin: 0 auto;
-    height: 65rem;
+    min-height: 75rem;
 }
 
 

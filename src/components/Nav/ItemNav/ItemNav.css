@@ -27,6 +27,16 @@
     background-color: #000;
 }
 
+.logotipo {
+    display: grid;
+    gap: 5rem;
+    padding: 3rem 0;
+}
+
+.titulo__enlace {
+    color: #000;
+}
+
 @media (min-width: 768px) {
 
     .logotipos__titulo {
@@ -41,12 +51,12 @@
 @media (min-width: 992px) {
 
     .logotipos {
-        width: 100%;
+        /* width: 100%; */
     }
 
     .logotipos__titulo {
         width: 100%;
-        font-size: 3rem;
+        font-size: 1.8rem;
     }
 
     .logotipos__titulo span {
@@ -54,14 +64,4 @@
         text-transform: uppercase;
     }
 
-}
-
-.logotipo {
-    display: grid;
-    gap: 5rem;
-    padding: 3rem 0;
-}
-
-.titulo__enlace {
-    color: #000;
 }
