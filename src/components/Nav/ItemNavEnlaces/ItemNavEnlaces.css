@@ -13,6 +13,7 @@
     letter-spacing: .96px;
     text-transform: uppercase;
     font-family:'Fjalla One', sans-serif;
+    border-bottom: 2px solid transparent;
 }
 
 
@@ -29,7 +30,7 @@
 
     .navegacion__enlaces {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
     }
 
