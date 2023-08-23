@@ -13,7 +13,7 @@ const FooterInformation = () => {
                     <p>Linkedin</p>
                 </Link>
             </div>
-            <p className="footer__texto">PortFolio realizado por Lizandro Narvaez</p>
+            <p className="footer__texto">Powered by Lizandro Narvaez</p>
         </div>
     )
 }
