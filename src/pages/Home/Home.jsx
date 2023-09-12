@@ -6,14 +6,21 @@ const Home = () => {
         <>
             <main className="home">
                 <div className="container__informacion" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
-                    <h2 className="informacion--titulo">Bienvenido</h2>
+                    <img className="img--titulo" src="../../../public/img/fullstack-title.png" alt="img title" />
+                    <h3 className="informacion--titulo">Sobre mi</h3>
                     <div className="informacion__bloque" >
+                        <hr />
+                        <img src="../../../public/img/foto.png" alt="img" />
                         <p>
-                            <span className="informacion-negrita">Soy un Desarrollador Full-Stack,</span>
-                            si haz llegado hasta aqui, te doy las gracias y te invito a visitar mi sitio web.
+                            ¡Hola! Me llamo <strong>Lizandro Narváez</strong> , soy fullstack developer y mi stack favorito es <strong>MERN</strong>,
+                            tambien tengo conocimientos en otras tecnologías.
+                        </p>
+                        <p>
+                            Soy una persona <strong>autodidacta</strong>, <strong>busco aprender</strong> y superarme día a día. Mi lado favorito es el <strong>backend</strong>, y de vez en cuando me gusta tocar <strong>frontend</strong>.
                         </p>
                         <p>Si quieres conocer mas acerca de mis repositorios, te dejo un enlace mi GitHub.
-                            <Link target="_blank" to={"https://github.com/lizandronarvaez"}>GitHub</Link>
+                            <Link target="_blank" to={"https://github.com/lizandronarvaez"}>
+                                <strong>GitHub</strong> </Link>
                         </p>
                     </div>
                 </div>

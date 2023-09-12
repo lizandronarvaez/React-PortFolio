@@ -1,40 +1,46 @@
 /* main */
 .home {
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008C 0% 100%), url("https://unade.edu.mx/wp-content/uploads/2020/10/desarrollo-de-paginas-web-programacion.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    width: min(90%, 80rem);
     margin: 0 auto;
     min-height: 75rem;
-}
-
-
-.informacion,
-h3,
-p {
-    font-size: 1.6rem;
 }
 
 .container__informacion {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #fff;
+}
+
+.img--titulo {
+    width: 30rem;
+    margin-top: 5rem;
 }
 
 .informacion--titulo {
-    font-size: 3.6rem;
-    margin-top: 5rem;
+    font-size: 3.5rem;
+    text-align: center;
 }
 
 .informacion__bloque {
     flex-direction: column;
+    text-align: center;
+    padding: 0 2rem;
+    margin-bottom: 17rem;
+}
+
+.informacion__bloque hr {
+    border: 1px solid #DADBDC
+}
+
+.informacion__bloque img {
+    width: 20rem;
+    border-radius: 50%;
 }
 
 .informacion__bloque p {
-    line-height: 2.5rem;
-    padding: 5rem 2rem;
-    color: var(--letraBlanca);
+    text-align: left !important;
+    line-height: 30px;
+    font-size: 1.8rem;
 }
 
 .informacion__bloque p:last-of-type {
@@ -44,7 +50,7 @@ p {
 
 .informacion__bloque p:last-of-type a {
     padding: .5rem 1.5rem;
-    background-color: #ff0000;
+    background-color: #347cbb;
     margin: 0 auto;
     margin-top: 1rem;
     border-radius: 5px;
@@ -52,28 +58,10 @@ p {
     font-weight: 800;
 }
 
-.informacion-negrita {
-    margin-right: 1.5rem;
-    font-weight: bold;
-    font-size: 2.3rem;
-    font-family: 'Roboto', sans-serif;
-}
-
 @media (min-width: 992px) {
 
     .informacion__bloque {
         width: 70rem;
-    }
-
-    .informacion__bloque p:first-of-type {
-        font-size: 2.2rem;
-        line-height: 3rem;
-        padding-top: 5rem;
-    }
-    .informacion-negrita {
-        margin-right: 1.5rem;
-        font-weight: bold;
-        font-size: 3.06rem;
     }
 
 }
