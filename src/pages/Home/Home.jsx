@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom"
 import "./Home.css"
-
+import FullStack from "../../../public/img/fullstack-title.png"
+import PhotoProfile from "../../../public/img/foto.png"
 const Home = () => {
     return (
         <>
             <main className="home">
                 <div className="container__informacion" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
-                    <img className="img--titulo" src="../../../public/img/fullstack-title.png" alt="img title" />
+                    <img className="img--titulo" src={FullStack} alt="img title" />
                     <h3 className="informacion--titulo">Sobre mi</h3>
                     <div className="informacion__bloque" >
                         <hr />
-                        <img src="../../../public/img/foto.png" alt="img" />
+                        <img src={PhotoProfile} alt="img" />
                         <p>
                             ¡Hola! Me llamo <strong>Lizandro Narváez</strong> , soy fullstack developer y mi stack favorito es <strong>MERN</strong>,
                             tambien tengo conocimientos en otras tecnologías.
