@@ -1,6 +1,6 @@
 import Jest from "../assets/jest.svg"
 
-const DataTesting =
+const Testing =
     [
         {
             "title": "Jest",
@@ -8,4 +8,4 @@ const DataTesting =
         }
     ]
 
-export default DataTesting
+export default Testing

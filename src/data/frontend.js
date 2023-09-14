@@ -3,7 +3,7 @@ import Css from "../assets/css.svg"
 import Javascript from "../assets/javascript.svg"
 import React from "../assets/react.svg"
 
-const dataFrontend =
+const Frontend =
     [
         {
             "title": "Html",
@@ -23,4 +23,4 @@ const dataFrontend =
         }
     ]
 
-export default dataFrontend
+export default Frontend

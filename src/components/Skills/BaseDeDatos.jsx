@@ -1,4 +1,4 @@
-import Database from "../../databaseSkill/database"
+import Database from "../../data/database"
 const BaseDeDatos = () => {
     return (
         <div className="base-datos" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">

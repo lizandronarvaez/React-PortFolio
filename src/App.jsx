@@ -1,10 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Nav from "./components/Nav/Nav"
+import Nav from "./interface/Nav/Nav"
 import Home from "./pages/Home/Home"
 import Skills from "./pages/Skills/Skills"
 import Contact from "./pages/Contact/Contact"
 import Proyectos from "./pages/Proyectos/Proyectos"
-import FooterInformation from "./components/FooterInformation/FooterInformation"
+import Footer from "./interface/Footer/Footer"
+
 function App() {
   return (
     <>
@@ -16,7 +17,7 @@ function App() {
           <Route path="proyectos" element={<Proyectos />} />
           <Route path="contacto" element={<Contact />} />
         </Routes>
-        <FooterInformation />
+        <Footer />
       </BrowserRouter>
     </>
   )
