@@ -5,46 +5,54 @@ import projects from "../../../assets/projects.svg"
 import contact from "../../../assets/contacto.svg"
 import "./ItemNavEnlaces.css"
 import { NavLink } from "react-router-dom";
+import { useRef } from 'react';
 
 const ItemNavEnlaces = ({ isActive }) => {
+    const myref = useRef();
 
+    const onRemoveClass = () => {
+        myref.current.classList.remove('mostrar__enlaces')
+    }
     return (
-        <div className={`navegacion__enlaces ${isActive ? " mostrar__enlaces" : ""}`}>
+        <div className={`navegacion__enlaces  ${isActive ? "mostrar__enlaces" : ""}`} ref={myref}>
 
-            {/* INICIO */}
             <NavLink
                 className="navegacion__enlace"
+                onClick={onRemoveClass}
                 to="/"
             >
                 <img src={home} alt="home" />
                 Inicio
             </NavLink>
-            {/* SKILLS */}
+
             <NavLink
                 className="navegacion__enlace"
-                to="skills"
+                onClick={onRemoveClass}
+                to="/skills"
             >
                 <img src={skills} alt="skills" />
                 Skills
             </NavLink>
-            {/* PROYECTOS */}
+
             <NavLink
                 className="navegacion__enlace"
-                to="proyectos"
+                onClick={onRemoveClass}
+                to="/proyectos"
             >
                 <img src={projects} alt="proyectos" />
                 Proyectos
             </NavLink>
-            {/* CONTACTO */}
+
             <NavLink
                 className="navegacion__enlace"
-                to="contacto"
+                onClick={onRemoveClass}
+                to="/contacto"
             >
                 <img src={contact} alt="contacto" />
                 Contacto
             </NavLink>
 
-        </div>
+        </div >
     )
 }
 
