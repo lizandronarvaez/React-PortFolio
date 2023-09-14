@@ -12,6 +12,12 @@
 .habilidades {
     display: grid;
 }
+.habilidades-frontend .habilidades,
+.habilidades-backend .habilidades,
+.base-datos .habilidades,
+.herramientas-desarrollo .habilidades{
+    grid-template-columns: repeat(2,1fr);
+}
 
 .habilidades-frontend,
 .habilidades-backend,
