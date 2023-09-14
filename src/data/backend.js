@@ -2,7 +2,7 @@ import Node from "../assets/nodejs.svg"
 import Express from "../assets/expressjs.svg"
 import Docker from "../assets/docker.svg"
 
-const DataBackend=[
+const Backend = [
     {
         "title": "Node JS",
         "img": Node
@@ -17,4 +17,4 @@ const DataBackend=[
     }
 ]
 
-export default DataBackend
+export default Backend

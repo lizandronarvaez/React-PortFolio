@@ -1,7 +1,7 @@
 import VisualStudio from "../assets/visual-studio.svg";
 import Postman from "../assets/postman.svg";
 import Git from "../assets/git.svg";
-const DataHerramientas =
+const Tools =
     [
         {
             "title": "Visual Studio Code",
@@ -17,4 +17,4 @@ const DataHerramientas =
         }
     ];
 
-export default DataHerramientas
+export default Tools

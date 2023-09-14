@@ -1,4 +1,4 @@
-import DataTesting from "../../databaseSkill/testing"
+import testing from "../../data/testing"
 
 const Testing = () => {
     return (
@@ -6,7 +6,7 @@ const Testing = () => {
             <h3>Testing</h3>
             <div className="habilidades">
                 {
-                    DataTesting.map((testing, i) => (
+                    testing.map((testing, i) => (
                         <div key={i} className="caja" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                             <img src={testing.img} alt="jest-testing" />
                             <p className="caja-texto">{testing.title}</p>

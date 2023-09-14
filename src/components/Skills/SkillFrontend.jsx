@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
 
-import dataFrontend from "../../databaseSkill/frontend"
+import Frontend from "../../data/frontend"
 
 const SkillFrontend = () => {
 
@@ -9,7 +9,7 @@ const SkillFrontend = () => {
             <h3>Skills Frontend</h3>
             <div className="habilidades">
                 {
-                    dataFrontend.map((front, i) => (
+                    Frontend.map((front, i) => (
                         <div key={i} className="caja" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                             <img src={front.img} />
                             <p className="caja-texto">{front.title}</p>

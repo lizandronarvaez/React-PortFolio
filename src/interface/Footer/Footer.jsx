@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import Linkedin from "../../assets/linkedin.svg";
-import "./FooterInformation.css";
+import "./Footer.css";
 
-const FooterInformation = () => {
+const Footer = () => {
   return (
     <div className="footer">
       <h5 className="footer__texto">Powered by Lizandro Narvaez</h5>
@@ -15,4 +15,4 @@ const FooterInformation = () => {
   );
 };
 
-export default FooterInformation;
+export default Footer;
