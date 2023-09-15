@@ -6,7 +6,7 @@ const SkillFrontend = () => {
 
     return (
         <div className="habilidades-frontend" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-            <h3>Skills Frontend</h3>
+            <h3>Frontend</h3>
             <div className="habilidades">
                 {
                     Frontend.map((front, i) => (
