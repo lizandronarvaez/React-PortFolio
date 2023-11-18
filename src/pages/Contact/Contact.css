@@ -45,10 +45,16 @@
     padding: 1.5rem 2rem;
     border-radius: 5px;
     border: none;
-    background-color: #347cbb;
-    color: #fff;
+    background-color: #fff;
+    color: #0a59cb;
+    border: 1px solid #0a59cb;
     font-weight: 600;
     cursor: pointer;
+}
+
+.formulario button[type="submit"]:hover {
+    background-color: #0a59cb;
+    color: #fff;
 }
 
 @media (min-width: 998px) {
