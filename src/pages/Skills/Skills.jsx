@@ -1,15 +1,18 @@
+import {
+    BaseDeDatos,
+    FooterSkills,
+    HerramientasDesarrollo,
+    SkillFrontend,
+    SkillsBackend,
+    Testing
+} from "../../components/Skills";
 import "./Skills.css";
-import BaseDeDatos from "../../components/Skills/BaseDeDatos"
-import HerramientasDesarrollo from "../../components/Skills/HerramientasDesarrollo"
-import FooterSkills from "../../components/Skills/FooterSkills"
-import SkillFrontend from "../../components/Skills/SkillFrontend"
-import SkillsBackend from "../../components/Skills/SkillsBackend"
-import Testing from "../../components/Skills/Testing"
+
 const Skills = () => {
     return (
         <>
-            <div className="informacion">
-                <section className="container-habilidades" id="container-habilidades">
+            <main className="informacion">
+                <section className="container-habilidades">
                     <SkillFrontend />
                     <SkillsBackend />
                     <Testing />
@@ -17,7 +20,7 @@ const Skills = () => {
                     <HerramientasDesarrollo />
                 </section>
                 <FooterSkills />
-            </div>
+            </main>
         </>
     )
 }
