@@ -1,7 +1,7 @@
 import useForm from "../../hooks/useForm";
-import "./Contact.css"
+import "./Contact.css";
 const Contact = () => {
-    const { form, handleDataFormulario, handleSubmitFormulario } = useForm()
+    const { form, handleDataFormulario, handleSubmitFormulario } = useForm();
     const { user_name, user_email, message } = form;
 
     return (
@@ -10,25 +10,31 @@ const Contact = () => {
             <hr />
             <div className="formulario">
                 <div className="formulario_box">
-                    <input type="text"
+                    <input
+                        type="text"
                         onChange={handleDataFormulario}
-                        placeholder="Asunto Mensaje"
+                        placeholder="Asunto mensaje"
                         name="user_name"
-                        value={user_name} />
+                        value={user_name}
+                    />
                 </div>
                 <div className="formulario_box">
-                    <input type="email"
+                    <input
+                        type="email"
                         onChange={handleDataFormulario}
                         placeholder="Introduce un email"
                         name="user_email"
-                        value={user_email} />
+                        value={user_email}
+                    />
                 </div>
                 <div className="formulario_box">
                     <textarea
                         onChange={handleDataFormulario}
                         placeholder="Introduce un mensaje"
                         name="message"
-                        value={message}></textarea>
+                        value={message}>
+
+                    </textarea>
                 </div>
                 <button type="submit">
                     Enviar
