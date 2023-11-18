@@ -18,8 +18,8 @@
     text-align: center;
     border-radius: 1rem;
     padding: 0 3rem;
-    background: linear-gradient(to bottom, #000 0%, #fff 50%);
-    border: 1px solid #DADBDC
+    background: linear-gradient(to bottom, #00416a, #e4e5e6);
+    /* border: 1px solid #DADBDC */
 }
 
 .box:first-of-type a:last-child {
@@ -55,11 +55,23 @@
 }
 
 .btn-repositorio {
-    background-color: #c74747;
+    background-color: #fff;
+    color: #0a59cb;
+    border: 1px solid #0a59cb;
+}
+
+.btn-repositorio:hover {
+    background-color: #0a59cb;
+    color: #fff;
 }
 
 .btn-enlace {
-    background-color: #347cbb;
+    background-color: #0a59cb;
+}
+
+.btn-enlace:hover {
+    background-color: #052c66;
+    
 }
 
 @media (min-width: 998px) {
@@ -80,6 +92,7 @@
         font-size: 1.8rem;
         line-height: 3rem;
     }
+
     .btn {
         padding: 1rem 2rem;
         border-radius: 5px;
