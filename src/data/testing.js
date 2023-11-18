@@ -1,10 +1,10 @@
-import Jest from "../assets/jest.svg"
+import { jest } from "../assets"
 
 const Testing =
     [
         {
             "title": "Jest",
-            "img": Jest
+            "img": jest
         }
     ]
 

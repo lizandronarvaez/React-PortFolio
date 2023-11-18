@@ -1,25 +1,22 @@
-import Html from "../assets/html.svg"
-import Css from "../assets/css.svg"
-import Javascript from "../assets/javascript.svg"
-import React from "../assets/react.svg"
+import { css, html, javascript, react } from "../assets"
 
 const Frontend =
     [
         {
             "title": "Html",
-            "img": Html
+            "img": html
         },
         {
             "title": "Css",
-            "img": Css
+            "img": css
         },
         {
             "title": "JavaScript",
-            "img": Javascript
+            "img": javascript
         },
         {
-            "title": "React JS",
-            "img": React
+            "title": "ReactJS",
+            "img": react
         }
     ]
 

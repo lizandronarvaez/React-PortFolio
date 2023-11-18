@@ -1,19 +1,17 @@
-import Node from "../assets/nodejs.svg"
-import Express from "../assets/expressjs.svg"
-import Docker from "../assets/docker.svg"
+import { docker, express, node } from "../assets"
 
 const Backend = [
     {
-        "title": "Node JS",
-        "img": Node
+        "title": "NodeJs",
+        "img": node
     },
     {
-        "title": "ExpressJS",
-        "img": Express
+        "title": "ExpressJs",
+        "img": express
     },
     {
         "title": "Docker",
-        "img": Docker
+        "img": docker
     }
 ]
 
