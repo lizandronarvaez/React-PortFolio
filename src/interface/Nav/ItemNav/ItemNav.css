@@ -50,10 +50,6 @@
 
 @media (min-width: 992px) {
 
-    .logotipos {
-        /* width: 100%; */
-    }
-
     .logotipos__titulo {
         width: 100%;
         font-size: 1.8rem;

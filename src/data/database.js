@@ -1,15 +1,15 @@
-import Mysql from "../assets/mysql.svg"
-import MongoDB from "../assets/mongodb.svg"
+import { mongoDB, mysql } from "../assets"
+
 const Database =
     [
         {
             "title": "MySql",
-            "img": Mysql,
+            "img": mysql,
             "alt": "mysql"
         },
         {
             "title": "MongoDB",
-            "img": MongoDB,
+            "img": mongoDB,
             "alt": "mongodb"
         }
     ]

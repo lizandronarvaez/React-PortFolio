@@ -1,8 +1,5 @@
 /* eslint-disable react/prop-types */
-import home from "../../../assets/icon-home.svg"
-import skills from "../../../assets/skills.svg"
-import projects from "../../../assets/projects.svg"
-import contact from "../../../assets/contacto.svg"
+import { contact, home, projects, skills } from "../../../assets";
 import "./ItemNavEnlaces.css"
 import { NavLink } from "react-router-dom";
 import { useRef } from 'react';
@@ -10,9 +7,7 @@ import { useRef } from 'react';
 const ItemNavEnlaces = ({ isActive }) => {
     const myref = useRef();
 
-    const onRemoveClass = () => {
-        myref.current.classList.remove('mostrar__enlaces')
-    }
+    const onRemoveClass = () => myref.current.classList.remove('mostrar__enlaces');
     return (
         <div className={`navegacion__enlaces  ${isActive ? "mostrar__enlaces" : ""}`} ref={myref}>
 
