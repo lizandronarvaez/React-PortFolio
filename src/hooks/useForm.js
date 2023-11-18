@@ -4,17 +4,19 @@ import Swal from "sweetalert2/dist/sweetalert2.all";
 
 const useForm = () => {
 
-    const [form, setForm] = useState({
+    const formData = {
         user_name: "",
         user_email: "",
         message: ""
-    })
+    };
+    const [form, setForm] = useState(formData);
+
     const handleDataFormulario = ({ target }) => {
         const { name, value } = target;
         setForm({
             ...form,
             [name]: value
-        })
+        });
     }
     const handleSubmitFormulario = async (e) => {
         e.preventDefault();
@@ -25,7 +27,7 @@ const useForm = () => {
                 'Los campos deben estar llenos',
                 'error'
             )
-            return
+            return;
         }
 
         // enviar email
@@ -41,16 +43,16 @@ const useForm = () => {
                         'Formulario enviado!',
                         'Se ha enviado correctamente',
                         'success'
-                    )
+                    );
                 }
             }).catch(error => {
-                console.log(error)
+
                 if (error) {
                     Swal.fire(
                         'Error en el envio',
                         'Ocurrio un error,vuelve a intentarlo',
                         'error'
-                    )
+                    );
                 }
 
             })
