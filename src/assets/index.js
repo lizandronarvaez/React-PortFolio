@@ -17,7 +17,7 @@ import postman from "./svg/postman.svg";
 import git from "./svg/git.svg";
 import mysql from "./svg/mysql.svg";
 import mongoDB from "./svg/mongodb.svg";
-
+import nest from "./svg/nestjs-icon.svg"
 
 export {
     home,
@@ -38,5 +38,6 @@ export {
     postman,
     git,
     mysql,
-    mongoDB
+    mongoDB,
+    nest
 };

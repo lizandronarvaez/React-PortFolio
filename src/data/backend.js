@@ -1,17 +1,21 @@
-import { docker, express, node } from "../assets"
+import { docker, express, nest, node, } from "../assets"
 
 const Backend = [
     {
-        "title": "NodeJs",
-        "img": node
+        title: "NodeJs",
+        img: node
     },
     {
-        "title": "ExpressJs",
-        "img": express
+        title: "ExpressJs",
+        img: express
     },
     {
-        "title": "Docker",
-        "img": docker
+        title: "NestJs",
+        img: nest
+    },
+    {
+        title: "Docker",
+        img: docker
     }
 ]
 
