@@ -32,7 +32,7 @@ const ItemNavEnlaces = ({ isActive }) => {
             <NavLink
                 className="navegacion__enlace"
                 onClick={onRemoveClass}
-                to="/proyectos"
+                to="/projects"
             >
                 <img src={projects} alt="proyectos" />
                 Proyectos
@@ -41,7 +41,7 @@ const ItemNavEnlaces = ({ isActive }) => {
             <NavLink
                 className="navegacion__enlace"
                 onClick={onRemoveClass}
-                to="/contacto"
+                to="/contact"
             >
                 <img src={contact} alt="contacto" />
                 Contacto

@@ -30,12 +30,13 @@
 
     .navegacion__enlaces {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: end;
         align-items: center;
     }
 
     .navegacion__enlace {
         font-size: 1.8rem;
+        padding: 0 2.5rem;
     }
     .mostrar__enlaces {
         width: 100%;
