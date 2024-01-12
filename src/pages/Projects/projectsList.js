@@ -1,13 +1,6 @@
-import {
-    gifApp,
-    portalEmpleo,
-    portfolio,
-    rickAndMorty,
-    weatherApp
-} from "../../../public"
+import { gifApp, portalEmpleo, portfolio, rickAndMorty, weatherApp } from "../../../public"
 
-
-const proyectosList = [
+export const projectsList = [
     {
         "title": "PortFolio",
         "img": portfolio,
@@ -42,5 +35,3 @@ const proyectosList = [
         "enlaceProyecto": "https://rick-morty-api-phi.vercel.app"
     }
 ]
-
-export default proyectosList
