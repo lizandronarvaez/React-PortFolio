@@ -1,24 +1,18 @@
 import { Route, Routes } from "react-router-dom"
-import Nav from "./interface/Nav/Nav"
-import Home from "./pages/Home/Home"
-import Skills from "./pages/Skills/Skills"
-import Contact from "./pages/Contact/Contact"
-import Proyectos from "./pages/Proyectos/Proyectos"
-import Footer from "./interface/Footer/Footer"
+import {Nav,Footer} from "./components/index"
+import { Home, Projects, Skills, Contact } from "./pages/index"
 
-function App() {
+export const App = () => {
   return (
     <>
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="skills" element={<Skills />} />
-        <Route path="proyectos" element={<Proyectos />} />
-        <Route path="contacto" element={<Contact />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
       <Footer />
     </>
   )
 }
-
-export default App
