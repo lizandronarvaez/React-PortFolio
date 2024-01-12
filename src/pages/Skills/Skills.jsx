@@ -5,10 +5,10 @@ import {
     SkillFrontend,
     SkillsBackend,
     Testing
-} from "../../components/Skills";
+} from "../../components";
 import "./Skills.css";
 
-const Skills = () => {
+export const Skills = () => {
     return (
         <>
             <main className="informacion">
@@ -24,5 +24,3 @@ const Skills = () => {
         </>
     )
 }
-
-export default Skills

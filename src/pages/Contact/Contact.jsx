@@ -1,6 +1,6 @@
 import useForm from "../../hooks/useForm";
 import "./Contact.css";
-const Contact = () => {
+export const Contact = () => {
     const { form, handleDataFormulario, handleSubmitFormulario } = useForm();
     const { user_name, user_email, message } = form;
 
@@ -43,5 +43,3 @@ const Contact = () => {
         </form>
     )
 }
-
-export default Contact

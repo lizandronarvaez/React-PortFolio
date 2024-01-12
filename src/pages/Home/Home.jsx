@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 import { photoProfile } from "../../../public";
 
-const Home = () => {
+export const Home = () => {
     return (
         <>
             <main className="home">
@@ -16,8 +16,7 @@ const Home = () => {
                         <hr />
                         <img src={photoProfile} alt="img" />
                         <p>
-                            ¡Saludos! Mi nombre es <strong>Lizandro Narváez</strong> , soy <strong>Backend Developer</strong>.
-                            {/* con interés en el frontend utilizando React. */}
+                            ¡Saludos! Mi nombre es <strong>Lizandro Narváez</strong>, soy <strong>FullStack Developer</strong>.
                         </p>
                         <p>
                             Aunque mi experiencia principal es el <i><strong>backend</strong></i>, poseo habilidades en el desarrollo frontend, particularmente
@@ -34,10 +33,7 @@ const Home = () => {
                             encontrarás una variedad de repositorios que destacan mi dedicación y experiencia
                             en el desarrollo.
                             <small>
-                                <strong>
-
-                                    Puedes acceder a mi perfil a través del siguiente enlance:
-                                </strong>
+                                <strong>Puedes acceder a mi perfil a través del siguiente enlance:</strong>
                             </small>
                             <Link target="_blank" to={"https://github.com/lizandronarvaez"}>
                                 <strong>GitHub</strong> </Link>
@@ -48,5 +44,3 @@ const Home = () => {
         </>
     )
 }
-
-export default Home
