@@ -1,5 +1,5 @@
 import fullStack from "./img/fullstack-title.png";
-import photoProfile from "./img/foto.png";
+import photoProfile from "./img/foto.jpg";
 import portalEmpleo from "./img/portalEmpleo.png";
 import rickAndMorty from "./img/rick_morty.png";
 import weatherApp from "./img/weatherApp.png";
