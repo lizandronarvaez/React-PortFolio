@@ -1,6 +1,14 @@
-import { docker, express, nest, node, } from "../assets"
+import { docker, express, nest, node, springboot } from "../../public/assets"
 
 const Backend = [
+    {
+        title: "SpringBoot",
+        img: springboot
+    },
+    {
+        title: "Docker",
+        img: docker
+    },
     {
         title: "NodeJs",
         img: node
@@ -12,10 +20,6 @@ const Backend = [
     {
         title: "NestJs",
         img: nest
-    },
-    {
-        title: "Docker",
-        img: docker
     }
 ]
 
