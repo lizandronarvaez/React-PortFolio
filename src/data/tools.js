@@ -1,18 +1,18 @@
-import { git, postman, visualtStudio } from "../assets";
+import { git, postman, visualtStudio } from "../../public/assets";
 
 const Tools =
     [
         {
-            "title": "Visual Studio Code",
-            "img": visualtStudio
+            title: "Visual Studio Code",
+            img: visualtStudio
         },
         {
-            "title": "PostMan",
-            "img": postman
+            title: "PostMan",
+            img: postman
         },
         {
-            "title": "Git",
-            "img": git
+            title: "Git",
+            img: git
         }
     ];
 

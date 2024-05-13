@@ -41,6 +41,8 @@
 
     .logotipos__titulo {
         padding: 0 1rem;
+        width: 20rem;
+        font-size: 1.8rem;
     }
 
     .hamburger {
@@ -49,11 +51,6 @@
 }
 
 @media (min-width: 992px) {
-
-    .logotipos__titulo {
-        width: 100%;
-        font-size: 1.8rem;
-    }
 
     .logotipos__titulo span {
         font-size: 3rem;

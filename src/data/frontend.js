@@ -1,22 +1,22 @@
-import { css, html, javascript, react } from "../assets"
+import { css, html, javascript, react } from "../../public/assets"
 
 const Frontend =
     [
         {
-            "title": "Html",
-            "img": html
+            title: "Html",
+            img: html
         },
         {
-            "title": "Css",
-            "img": css
+            title: "Css",
+            img: css
         },
         {
-            "title": "JavaScript",
-            "img": javascript
+            title: "JavaScript",
+            img: javascript
         },
         {
-            "title": "ReactJS",
-            "img": react
+            title: "ReactJS",
+            img: react
         }
     ]
 
