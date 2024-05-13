@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { contact, home, projects, skills } from "../../../assets";
+import { contact, home, projects, skills } from "../../../../public/assets";
 import "./ItemNavEnlaces.css"
 import { NavLink } from "react-router-dom";
 import { useRef } from 'react';

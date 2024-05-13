@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Footer.css";
-import { linkedin } from "../../assets";
+import { linkedin } from "../../../public/assets";
 
 const Footer = () => {
   return (

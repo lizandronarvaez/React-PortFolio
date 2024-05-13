@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom"
 import "./ItemNav.css"
-import { iconNav } from "../../../assets"
+import { iconNav } from "../../../../public/assets"
 
 const ItemNav = ({ toggleClass }) => {
 
